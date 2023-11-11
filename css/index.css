@@ -1,6 +1,18 @@
 /*!************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/styles.sass ***!
   \************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap);
+/*!****************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/styles.sass (1) ***!
+  \****************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap);
+/*!****************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/styles.sass (2) ***!
+  \****************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap);
+/*!****************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/styles.sass (3) ***!
+  \****************************************************************************************************************************/
 @font-face {
   font-family: "Fira Code";
   font-weight: 300;
@@ -31,6 +43,18 @@
   font-style: normal;
   src: url(../fonts/e3428b597c378e1fdcb0.woff) format("woff");
 }
+/*
+$colors: (
+    primary: 249 59% 20%,        // Deep Purple for primary actions and headings
+    primary-op: 249 59% 20% / 0.1, // Deep Purple with opacity for overlays or highlights
+    gray: 0 0% 23%,               // Dark Gray for secondary text or less emphasized elements
+    gray-op: 0 0% 23% / 0.1,      // Dark Gray with opacity for shadows or subtle borders
+    background: 30 20% 98%,       // Soft Pink as a light background
+    white:  0 0% 23%,             // Pure white for contrast against deep purple and for clean, crisp backgrounds
+    accent: 340 80% 90%,          // Light Pink for accents and calls to action
+    highlight: 250 80% 80%,       // Lavender for highlights and interactive elements
+);
+*/
 html,
 body,
 div,
@@ -110,7 +134,7 @@ button {
 body, html {
   background-color: var(--background);
   color: var(--white);
-  font-family: "Fira Code", monospace;
+  font-family: "Roboto", sans-serif;
   display: flex;
   gap: 112px;
   flex-direction: column;
