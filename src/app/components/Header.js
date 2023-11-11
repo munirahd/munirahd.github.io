@@ -1,10 +1,10 @@
 import routes from "@/consts/routes";
 import MediaIcon from "./MediaIcon";
 
-const paths = ["/", "/projects", "/about-me"]
+const paths = ["/", "/projects", "/about-me"];
 
 export default (t) => {
-    return /*html*/ `
+  return /*html*/ `
         <header class="header">
             <input class="hamburger" type="checkbox" aria-label="Menu" />
 
@@ -12,8 +12,8 @@ export default (t) => {
                 <span class="media-header__line"></span>
                 <div class="media-header__links">
                     ${["discord", "github", "email"]
-                        .map((name) => MediaIcon({ name }))
-                        .join("")}
+                      .map((name) => MediaIcon({ name }))
+                      .join("")}
                 </div>
             </div>
 
@@ -22,21 +22,21 @@ export default (t) => {
 
                 <div class="header__inner">
                     <a class="logo" href="/">
-                        <img class="logo__img" src="/images/logo.svg" alt="Elias logo">
+                        <img class="logo__img" src="/images/logo.png" alt="Elias logo">
                         <span class="logo__name">Elias</span>
                     </a>
                     <div class="header__links">
                         ${paths
-                            .map(
-                                (path) => /*html*/ `
+                          .map(
+                            (path) => /*html*/ `
                                 <a href="${path}" class="header__link ${
-                                    window.location.pathname === path
-                                        ? "header__link_active"
-                                        : ""
-                                }">${t[routes[path].name]}</a>
+                              window.location.pathname === path
+                                ? "header__link_active"
+                                : ""
+                            }">${t[routes[path].name]}</a>
                             `
-                            )
-                            .join("")}
+                          )
+                          .join("")}
                     </div>
                     <div class="dropdown">
                         <span class="dropdown__label">en</span>
