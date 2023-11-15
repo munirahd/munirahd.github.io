@@ -137,19 +137,21 @@ $screen: 768px
         
     
     &__link
+        font-size: 18px
         color: var(--gray)
 
         &_active
-            font-weight: 600
-            color: var(--white)
+            font-weight: bold
+            color: var(--primary)
 
         &::before
-            content: "#"
-            color: var(--primary)
+            color: var(--highlight)
             font-weight: normal
         
-        &:hover 
-            color: var(--white)
+        &:hover
+            font-weight: bold
+            color: var(--primary)
+            background-color: var(--)
 
     @media (max-width: $desktopScreen) 
         padding-top: 16px

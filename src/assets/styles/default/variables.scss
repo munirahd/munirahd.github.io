@@ -1,24 +1,11 @@
 $colors: (
-    primary: 287 60% 65%,
-    primary-op: 287 60% 65% / 0.1,
-    gray: 219 14% 71%,
-    gray-op: 219 14% 71% / 0.1,
-    background: 218 12% 18%,
-    white: 0 0% 100%,
+    primary: 37 80% 65%, //yellow
+    primary-op: 37 80% 65%/ 0.1,
+    gray: 30 20% 98%, //sea salt white
+    gray-op:  30 20% 98% / 0.1,
+    background:195 11% 14%, //Eerie black
+    space: 192 10% 28%, // outer space
 );
-/*
-$colors: (
-    primary: 249 59% 20%,        // Deep Purple for primary actions and headings
-    primary-op: 249 59% 20% / 0.1, // Deep Purple with opacity for overlays or highlights
-    gray: 0 0% 23%,               // Dark Gray for secondary text or less emphasized elements
-    gray-op: 0 0% 23% / 0.1,      // Dark Gray with opacity for shadows or subtle borders
-    background: 30 20% 98%,       // Soft Pink as a light background
-    white:  0 0% 23%,             // Pure white for contrast against deep purple and for clean, crisp backgrounds
-    accent: 340 80% 90%,          // Light Pink for accents and calls to action
-    highlight: 250 80% 80%,       // Lavender for highlights and interactive elements
-);
-*/
-
 
 $desktopScreen: 1024px;
 $tabletScreen: 768px;

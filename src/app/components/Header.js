@@ -3,6 +3,11 @@ import MediaIcon from "./MediaIcon";
 
 const paths = ["/", "/projects", "/about-me"];
 
+// Function to capitalize the first letter of each word
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 export default (t) => {
   return /*html*/ `
         <header class="header">
@@ -17,13 +22,11 @@ export default (t) => {
                 </div>
             </div>
 
-
             <div class="container">
-
                 <div class="header__inner">
                     <a class="logo" href="/">
-                        <img class="logo__img" src="/images/logo.png" alt="Elias logo">
-                        <span class="logo__name">Elias</span>
+                    <!-- <img class="logo__img" src="/images/logo.png" alt="Munirah logo"> -->
+                        <span class="logo__name">Munirah Alduraibi</span>
                     </a>
                     <div class="header__links">
                         ${paths
@@ -33,24 +36,24 @@ export default (t) => {
                               window.location.pathname === path
                                 ? "header__link_active"
                                 : ""
-                            }">${t[routes[path].name]}</a>
+                            }">${capitalizeFirstLetter(
+                              t[routes[path].name]
+                            )}</a>
                             `
                           )
                           .join("")}
                     </div>
+                    <!--
                     <div class="dropdown">
                         <span class="dropdown__label">en</span>
-
                         <div class="dropdown__list">
                             <div class="dropdown__option">ru</div>
                             <div class="dropdown__option">ua</div>
                         </div>
                     </div>
-
+                    -->
                 </div>
             </div>
-            
-
         </header>
     `;
 };

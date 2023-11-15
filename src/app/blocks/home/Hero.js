@@ -9,10 +9,16 @@ export default (t) => {
                 <a class="button button__primary" href="#contacts">${t.button} =></a>
             </div>
             <div class="hero__illustrations">
-                <img src="/images/logo-outline.svg" alt="" class="hero__logo">
-                <img src="/images/hero.png" alt="Elias" class="hero__image">
+            <div class="hero__right">
+               <!-- <img src="/images/logo-outline.svg" alt="" class="hero__logo">-->
+              
+                <img src="/images/hero1.png" alt="Elias" class="hero__image">
+                <div class="hero__des">
+                Ada Lovelace the world's first computer programmer
+                </div>
+                </div>
                 <div class="hero__status">${t.status} <a href="https://elias-dev.ml">Portfolio</a></div>
-                ${Dots({})}
+               <!-- ${Dots({})} -->
             </div>
         </section>
     `;
