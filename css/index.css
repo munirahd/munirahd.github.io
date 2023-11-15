@@ -43,18 +43,6 @@
   font-style: normal;
   src: url(../fonts/e3428b597c378e1fdcb0.woff) format("woff");
 }
-/*
-$colors: (
-    primary: 249 59% 20%,        // Deep Purple for primary actions and headings
-    primary-op: 249 59% 20% / 0.1, // Deep Purple with opacity for overlays or highlights
-    gray: 0 0% 23%,               // Dark Gray for secondary text or less emphasized elements
-    gray-op: 0 0% 23% / 0.1,      // Dark Gray with opacity for shadows or subtle borders
-    background: 30 20% 98%,       // Soft Pink as a light background
-    white:  0 0% 23%,             // Pure white for contrast against deep purple and for clean, crisp backgrounds
-    accent: 340 80% 90%,          // Light Pink for accents and calls to action
-    highlight: 250 80% 80%,       // Lavender for highlights and interactive elements
-);
-*/
 html,
 body,
 div,
@@ -133,8 +121,8 @@ button {
 
 body, html {
   background-color: var(--background);
-  color: var(--white);
-  font-family: "Roboto", sans-serif;
+  color: var(--gray);
+  font-family: monospace, "Playfair Display", "IBM Plex Mono", "Roboto Mono", "Playfair Display";
   display: flex;
   gap: 112px;
   flex-direction: column;
@@ -279,19 +267,21 @@ body, html {
   gap: 32px;
 }
 .header__link {
+  font-size: 18px;
   color: var(--gray);
 }
 .header__link_active {
-  font-weight: 600;
-  color: var(--white);
+  font-weight: bold;
+  color: var(--primary);
 }
 .header__link::before {
-  content: "#";
-  color: var(--primary);
+  color: var(--highlight);
   font-weight: normal;
 }
 .header__link:hover {
-  color: var(--white);
+  font-weight: bold;
+  color: var(--primary);
+  background-color: var(--);
 }
 @media (max-width: 1024px) {
   .header {
@@ -486,18 +476,20 @@ body, html {
   gap: 8px;
 }
 .logo__img {
-  aspect-ratio: 1;
-  width: 16px;
+  width: 181px;
+  height: auto;
+  max-height: 100%;
 }
 .logo__name {
+  font-size: 22px;
   font-weight: 700;
 }
 
 :root {
-  --primary: hsl(287 60% 65%);
-  --primary-op: hsl(287 60% 65%/0.1);
-  --gray: hsl(219 14% 71%);
-  --gray-op: hsl(219 14% 71%/0.1);
-  --background: hsl(218 12% 18%);
-  --white: hsl(0 0% 100%);
+  --primary: hsl(37 80% 65%);
+  --primary-op: hsl(37 80% 65%/0.1);
+  --gray: hsl(30 20% 98%);
+  --gray-op: hsl(30 20% 98%/0.1);
+  --background: hsl(195 11% 14%);
+  --space: hsl(192 10% 28%);
 }

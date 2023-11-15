@@ -1,18 +1,6 @@
 /*!********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/pages/projects.sass ***!
   \********************************************************************************************************************************/
-/*
-$colors: (
-    primary: 249 59% 20%,        // Deep Purple for primary actions and headings
-    primary-op: 249 59% 20% / 0.1, // Deep Purple with opacity for overlays or highlights
-    gray: 0 0% 23%,               // Dark Gray for secondary text or less emphasized elements
-    gray-op: 0 0% 23% / 0.1,      // Dark Gray with opacity for shadows or subtle borders
-    background: 30 20% 98%,       // Soft Pink as a light background
-    white:  0 0% 23%,             // Pure white for contrast against deep purple and for clean, crisp backgrounds
-    accent: 340 80% 90%,          // Light Pink for accents and calls to action
-    highlight: 250 80% 80%,       // Lavender for highlights and interactive elements
-);
-*/
 .project {
   border: 1px solid var(--gray);
 }

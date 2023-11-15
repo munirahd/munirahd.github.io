@@ -1,18 +1,6 @@
 /*!****************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/pages/home.sass ***!
   \****************************************************************************************************************************/
-/*
-$colors: (
-    primary: 249 59% 20%,        // Deep Purple for primary actions and headings
-    primary-op: 249 59% 20% / 0.1, // Deep Purple with opacity for overlays or highlights
-    gray: 0 0% 23%,               // Dark Gray for secondary text or less emphasized elements
-    gray-op: 0 0% 23% / 0.1,      // Dark Gray with opacity for shadows or subtle borders
-    background: 30 20% 98%,       // Soft Pink as a light background
-    white:  0 0% 23%,             // Pure white for contrast against deep purple and for clean, crisp backgrounds
-    accent: 340 80% 90%,          // Light Pink for accents and calls to action
-    highlight: 250 80% 80%,       // Lavender for highlights and interactive elements
-);
-*/
 .about {
   display: flex;
   gap: 32px;
@@ -101,6 +89,18 @@ $colors: (
 .hero__image {
   position: relative;
   z-index: 2;
+  width: 400px;
+  height: 400px;
+}
+.hero__des {
+  color: var(--gray);
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  font-style: italic;
+}
+.hero__right {
+  width: 400px;
   border-bottom: 1px solid var(--primary);
 }
 .hero__content, .hero__illustrations {
@@ -110,6 +110,8 @@ $colors: (
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .hero__title {
   min-width: 300px;
@@ -125,10 +127,10 @@ $colors: (
   margin-bottom: 32px;
 }
 .hero__status {
-  padding: 8px;
+  padding: 6px;
   border: 1px solid var(--gray);
   color: var(--gray);
-  margin: 0 auto;
+  margin-top: 12px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -136,7 +138,7 @@ $colors: (
   top: -1px;
   z-index: 5;
   gap: 8px;
-  font-weight: 500;
+  font-size: 14px;
 }
 .hero__status::before {
   content: "";
