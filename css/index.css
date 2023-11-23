@@ -1,17 +1,9 @@
 /*!************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/styles.sass ***!
   \************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap);
-/*!****************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/styles.sass (1) ***!
-  \****************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap);
 /*!****************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/styles.sass (2) ***!
-  \****************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap);
-/*!****************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/styles.sass (3) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/styles.sass (1) ***!
   \****************************************************************************************************************************/
 @font-face {
   font-family: "Fira Code";
@@ -122,7 +114,7 @@ button {
 body, html {
   background-color: var(--background);
   color: var(--gray);
-  font-family: monospace, "Playfair Display", "IBM Plex Mono", "Roboto Mono", "Playfair Display";
+  font-family: "IBM Plex Mono", monospace;
   display: flex;
   gap: 112px;
   flex-direction: column;
@@ -144,7 +136,7 @@ body, html {
   justify-content: center;
   left: 16px;
   gap: 8px;
-  top: 0px;
+  top: 80px;
 }
 @media (max-width: 1024px) {
   .media-header {
@@ -157,7 +149,7 @@ body, html {
 }
 .media-header__line {
   width: 1px;
-  height: 33vh;
+  height: 35vh;
   background-color: var(--gray);
   display: block;
 }
@@ -244,13 +236,14 @@ body, html {
 }
 
 .header {
-  padding-top: 32px;
-  padding-bottom: 8px;
+  padding-top: 28px;
+  padding-bottom: 22px;
   background-color: var(--background);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999;
+  border-bottom: 1px solid var(--gray);
 }
 .header__inner {
   display: flex;
@@ -339,7 +332,9 @@ body, html {
   font-weight: 500;
 }
 .button:hover {
-  background-color: var(--primary-op);
+  font-weight: bold;
+  background-color: var(--primary);
+  color: var(--background);
 }
 .button__secondary {
   border-color: var(--gray);
@@ -436,7 +431,6 @@ body, html {
   display: inline-block;
 }
 .h2::before {
-  content: "#";
   color: var(--primary);
 }
 .h2::after {
@@ -481,7 +475,7 @@ body, html {
   max-height: 100%;
 }
 .logo__name {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
 }
 

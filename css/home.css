@@ -66,6 +66,7 @@
 }
 
 .hero {
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,8 +90,8 @@
 .hero__image {
   position: relative;
   z-index: 2;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 .hero__des {
   color: var(--gray);
@@ -100,13 +101,17 @@
   font-style: italic;
 }
 .hero__right {
-  width: 400px;
+  width: 350px;
   border-bottom: 1px solid var(--primary);
 }
 .hero__content, .hero__illustrations {
   flex: 1 1 0;
 }
+.hero__content {
+  flex: 2 1 0;
+}
 .hero__illustrations {
+  flex: 1 1 0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -114,7 +119,7 @@
   align-items: center;
 }
 .hero__title {
-  min-width: 300px;
+  min-width: 350px;
   font-size: 32px;
   font-weight: 600;
 }
@@ -123,7 +128,7 @@
 }
 .hero__description {
   color: var(--gray);
-  margin-top: 32px;
+  margin-top: 18px;
   margin-bottom: 32px;
 }
 .hero__status {
@@ -179,7 +184,7 @@
   content: '"';
   position: absolute;
   color: var(--gray);
-  font-size: 64px;
+  font-size: 52px;
   font-weight: 700;
   background-image: linear-gradient(var(--background), var(--background));
   background-size: 100% 40%;
@@ -190,25 +195,24 @@
   left: 16px;
 }
 .quote::after {
-  bottom: -64px;
+  bottom: -52px;
   right: 16px;
 }
 .quote__text {
-  padding: 32px;
-  font-size: 24px;
+  padding: 28px;
+  font-size: 18px;
   font-weight: 500;
   background-color: var(--background);
 }
 .quote__author {
   position: absolute;
   color: var(--gray);
-  border: 1px solid var(--gray);
   padding: 8px;
   right: -1px;
   font-size: 16px;
 }
 .quote__author::before {
-  content: "- ";
+  content: "";
 }
 
 .skills {
@@ -262,6 +266,60 @@
   top: 20%;
   left: 40%;
   position: absolute;
+}
+
+.experience__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+.experience__link {
+  text-decoration: underline;
+}
+.experience__link:hover {
+  color: var(--primary);
+}
+
+.timeline {
+  border-left: 2px solid var(--primary);
+  padding-left: 20px;
+  position: relative;
+}
+.timeline__item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.timeline__item:before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 3px solid #fff;
+}
+.timeline__content {
+  padding: 10px 20px;
+  background: var(--background);
+  border-radius: 4px;
+}
+.timeline__content h3 {
+  margin: 0;
+  font-weight: 600;
+}
+.timeline__content ul {
+  padding-left: 20px;
+}
+.timeline__content li {
+  margin-bottom: 10px;
+}
+.timeline__date {
+  font-style: italic;
+  color: var(--gray-op);
 }
 
 .project {
