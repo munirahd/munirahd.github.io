@@ -1,0 +1,51 @@
+.experience 
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        margin-bottom: 48px
+    
+    &__link
+        text-decoration: underline
+        &:hover
+            color: var(--primary)
+
+.timeline
+    border-left: 2px solid var(--primary)
+    padding-left: 20px
+    position: relative
+
+    &__item
+        position: relative
+        margin-bottom: 30px
+        &:before
+            content: ''
+            position: absolute
+            left: -7px
+            top: 0
+            height: 15px
+            width: 15px
+            border-radius: 50%
+            background: var(--primary)
+            border: 3px solid #fff
+
+    &__content
+        padding: 10px 20px
+        background: var(--background)
+        bor
+        border-radius: 4px
+
+        h3
+            margin: 0
+            font-weight: 600
+
+        ul
+            padding-left: 20px
+
+        li
+            margin-bottom: 10px
+
+    &__date
+        font-style: italic
+        color: var(--gray-op)

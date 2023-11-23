@@ -9,7 +9,7 @@ $screen: 768px
     justify-content: center
     left: 16px
     gap: 8px
-    top: 0px
+    top: 80px
 
     @media (max-width: $desktopScreen) 
         display: none
@@ -21,7 +21,7 @@ $screen: 768px
 
     &__line 
         width: 1px
-        height: 33vh
+        height: 35vh
         background-color: var(--gray)
         display: block
 
@@ -110,13 +110,14 @@ $screen: 768px
 
 .header 
     padding:
-        top: 32px
-        bottom: 8px
+        top: 28px
+        bottom: 22px
     background-color: var(--background)
     position: fixed
     top: 0
     width: 100%
     z-index: 999
+    border-bottom: 1px solid var(--gray)
     
     &__inner
         display: flex

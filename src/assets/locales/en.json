@@ -1,9 +1,9 @@
 {
   "header": {
-    "home": "home",
-    "projects": "projects",
-    "about": "about-me",
-    "contacts": "contacts"
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About me",
+    "contacts": "Let's talk"
   },
   "footer": {
     "description": "Web designer and front-end developer based in Ukraine",
@@ -70,17 +70,21 @@
   "pages": {
     "home": {
       "hero": {
-        "title": "Munirah is a <span>web designer</span> and <span>front-end</span> developer",
-        "description": "He crafts responsive websites where technologies meet creativity",
-        "button": "Contact ME",
+        "title": "Software Engineer, Building AI-centric solutions.",
+        "description": "As a software engineer, my capabilities were showcased during my internship, where I significantly contributed to redeveloping an internal portal for a department. Additionally, I played a key role in testing a new feature within an app built on a major financial system, during which I identified three critical bugs. Independently, I also developed a Power BI dashboard to enhance the visualization of internal data. For My graduation project, \"Muhtm,\" it is an AI-based tool for in-depth sentiment analysis of customer reviews, aiding business owners in product evaluation.",
+        "button": "Let's talk →",
         "status": "Currently working on "
       },
       "quote": {
-        "text": "With great power comes great electricity bill",
-        "author": "Dr. Who"
+        "text": "Programming isn't about what you know; it's about what you can figure out. -Chris Pine",
+        "author": ""
+      },
+      "experience": {
+        "title": "Experience",
+        "button": "View all"
       },
       "projects": {
-        "title": "projects",
+        "title": "Projects",
         "button": "View all"
       },
       "skills": {

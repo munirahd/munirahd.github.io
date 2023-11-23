@@ -20,8 +20,8 @@ export default {
         element: "PageNotFound",
     },
     
-    // "/contacts": {
-    //     name: "contacts",
-    //     element: "Contacts",
-    // },
+    "/contacts": {
+        name: "contacts",
+        element: "Contacts",
+    },
 };

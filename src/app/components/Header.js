@@ -1,12 +1,8 @@
 import routes from "@/consts/routes";
 import MediaIcon from "./MediaIcon";
 
-const paths = ["/", "/projects", "/about-me"];
+const paths = ["/", "/projects", "/about-me", "/contacts"];
 
-// Function to capitalize the first letter of each word
-function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
-}
 
 export default (t) => {
   return /*html*/ `
@@ -36,9 +32,7 @@ export default (t) => {
                               window.location.pathname === path
                                 ? "header__link_active"
                                 : ""
-                            }">${capitalizeFirstLetter(
-                              t[routes[path].name]
-                            )}</a>
+                            }">${t[routes[path].name]}</a>
                             `
                           )
                           .join("")}

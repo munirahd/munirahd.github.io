@@ -1,4 +1,5 @@
 .hero 
+    margin-top: 30px
     display: flex
     justify-content: space-between
     align-items: center
@@ -22,8 +23,8 @@
     &__image
         position: relative
         z-index: 2
-        width:400px
-        height:400px
+        width:350px
+        height:350px
 
     &__des
         color: var(--gray)
@@ -31,18 +32,24 @@
         font-size: 12px
         padding: 10px
         font-style: italic
+        
+        
 
     &__right
-        width:400px
+        width:350px
         border-bottom: 1px solid var(--primary)
 
 
-        
+   
 
     &__content, &__illustrations
         flex: 1 1 0
 
+    &__content
+        flex: 2 1 0
+
     &__illustrations
+        flex: 1 1 0
         position: relative
         display: flex
         flex-direction: column
@@ -52,7 +59,7 @@
         
 
     &__title 
-        min-width: 300px
+        min-width: 350px
 
         font:
             size: 32px
@@ -63,7 +70,7 @@
     
     &__description
         color: var(--gray)
-        margin-top: 32px
+        margin-top: 18px
         margin-bottom: 32px
     
     &__status
