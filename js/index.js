@@ -233,7 +233,7 @@ eval("var map = {\n\t\"./About\": [\n\t\t\"./src/app/views/About.js\",\n\t\t\"sr
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + {"src_app_views_About_js":"459707b3be270cec240b","src_app_views_Contacts_js":"4af01c54fb87421b8bf6","src_app_views_Home_js":"f8c55ed37129f7a6ec3d","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"7cfd0a7d3f25d9aa9ed6"}[chunkId] + ".js";
+/******/ 			return "js/" + {"src_app_views_About_js":"459707b3be270cec240b","src_app_views_Contacts_js":"4af01c54fb87421b8bf6","src_app_views_Home_js":"e6e8b73bc35d3c679eb1","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"7cfd0a7d3f25d9aa9ed6"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	

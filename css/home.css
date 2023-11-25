@@ -129,7 +129,11 @@
 .hero__description {
   color: var(--gray);
   margin-top: 18px;
-  margin-bottom: 32px;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+.hero__description span {
+  color: var(--primary);
 }
 .hero__status {
   padding: 6px;
@@ -218,54 +222,14 @@
 .skills {
   width: 100%;
 }
-.skills__content {
-  display: flex;
-  gap: 32px;
-  flex-wrap: wrap;
-}
-.skills .skill-block {
-  margin-bottom: 16px;
-}
-.skills__list {
-  column-gap: 16px;
-  columns: 3;
-}
-@media (max-width: 768px) {
-  .skills__list {
-    columns: 2;
-  }
-}
-@media (max-width: 500px) {
-  .skills__list {
-    columns: 1;
-  }
-}
-.skills__illustrations, .skills__list {
-  flex: 1 1 0;
-}
 
-.illustrations {
-  position: relative;
-  min-width: 300px;
-  min-height: 300px;
-}
-.illustrations__logo {
-  width: 16vmin;
-  top: 30%;
-  position: absolute;
-  left: 70%;
-}
-.illustrations .dots:nth-of-type(2) {
-  width: 16vmin;
-  top: 70%;
-  left: 10%;
-  position: absolute;
-}
-.illustrations .dots:nth-of-type(1) {
-  width: 10vmin;
-  top: 20%;
-  left: 40%;
-  position: absolute;
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .experience__header {
@@ -281,9 +245,12 @@
 .experience__link:hover {
   color: var(--primary);
 }
+.experience__description {
+  margin-bottom: 16px;
+}
 
 .timeline {
-  border-left: 2px solid var(--primary);
+  border-left: 2px solid var(--gray);
   padding-left: 20px;
   position: relative;
 }
@@ -299,8 +266,8 @@
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background: var(--primary);
-  border: 3px solid #fff;
+  background: var(--gray);
+  border: 3px solid var(--gray);
 }
 .timeline__content {
   padding: 10px 20px;
@@ -318,8 +285,7 @@
   margin-bottom: 10px;
 }
 .timeline__date {
-  font-style: italic;
-  color: var(--gray-op);
+  color: var(--gray);
 }
 
 .project {
