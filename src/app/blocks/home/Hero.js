@@ -5,7 +5,12 @@ export default (t) => {
         <section class="hero">
             <div class="hero__content">
                 <h1 class="hero__title">${t.title}</h1>
-                <div class="hero__description">${t.description}</div>
+                <div class="hero__description">                    
+                ${t.description.map(
+                    (text) =>
+                        /*html*/ `<p class="hero__description">${text}</p>`
+                ).join("")}
+                </div>
                 <a class="button button__primary" href="#contacts">${t.button}</a>
             </div>
             <div class="hero__illustrations">

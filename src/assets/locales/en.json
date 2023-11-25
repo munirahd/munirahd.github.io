@@ -71,7 +71,11 @@
     "home": {
       "hero": {
         "title": "Software Engineer, Building AI-centric solutions.",
-        "description": "As a software engineer, my capabilities were showcased during my internship, where I significantly contributed to redeveloping an internal portal for a department. Additionally, I played a key role in testing a new feature within an app built on a major financial system, during which I identified three critical bugs. Independently, I also developed a Power BI dashboard to enhance the visualization of internal data. For My graduation project, \"Muhtm,\" it is an AI-based tool for in-depth sentiment analysis of customer reviews, aiding business owners in product evaluation.",
+        "description": [
+          "As a software engineer, my capabilities were showcased during my internship, where I significantly contributed to <span> redeveloping</span> an internal portal for a department. Additionally, I played a key role in <span> testing </span>  a new feature within an app built on a major financial system, during which I identified <span> 3 bugs</span>.",
+          " Independently, I also <span>developed a Power BI dashboard</span> to enhance the visualization of internal data. For My graduation project, \"Muhtm,\" it is an <span>AI-based tool</span> for in-depth sentiment analysis of customer reviews, aiding business owners in product evaluation.",
+          "To explore more about my projects and professional journey, feel free to contact me or visit my LinkedIn profile."
+        ],
         "button": "Let's talk →",
         "status": "Currently working on "
       },
@@ -81,6 +85,15 @@
       },
       "experience": {
         "title": "Experience",
+        "experience_title": "Software Engineer Intern – Digital Channels Team",
+        "experience_date": "July 2023 - Sep 2023",
+        "description": [
+          "→ Developed the new Human Capital internal Portal using SharePoint & Frontend tools/frameworks.",
+          "→ Tested a major financial analysis system in the bank's new mobile app, identifying microservice-related issues, documenting bugs in Jira, and cross-referencing with the related team.",
+          "→ Developed a dynamic Power BI dashboard for the Human Capital department.",
+          "→ Developed a candidate management system for the Digital Channels team using Nintex workflows.",
+          "→ Assisted with internal support, making modifications for departmental internal portals."
+        ],
         "button": "View all"
       },
       "projects": {
@@ -88,7 +101,7 @@
         "button": "View all"
       },
       "skills": {
-        "title": "skills"
+        "title": "Skills"
       },
       "about": {
         "title": "about",

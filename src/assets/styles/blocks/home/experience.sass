@@ -10,9 +10,12 @@
         text-decoration: underline
         &:hover
             color: var(--primary)
+    
+    &__description
+        margin-bottom: 16px
 
 .timeline
-    border-left: 2px solid var(--primary)
+    border-left: 2px solid var(--gray)
     padding-left: 20px
     position: relative
 
@@ -27,8 +30,8 @@
             height: 15px
             width: 15px
             border-radius: 50%
-            background: var(--primary)
-            border: 3px solid #fff
+            background: var(--gray)
+            border: 3px solid var(--gray)
 
     &__content
         padding: 10px 20px
@@ -47,5 +50,4 @@
             margin-bottom: 10px
 
     &__date
-        font-style: italic
-        color: var(--gray-op)
+        color: var(--gray)
