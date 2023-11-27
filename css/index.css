@@ -437,7 +437,7 @@ body, html {
   content: "";
   display: block;
   width: 10vw;
-  height: 1px;
+  height: 2px;
   background-color: var(--primary);
   position: absolute;
   transform: translate(100%, -50%);
