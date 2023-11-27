@@ -63,7 +63,7 @@ export default (t, t2) => {
               ([DevOpsAndTools, imageUrl]) => /*html*/ `
               <li>
                 <img src="${imageUrl}" alt="The logo icon for ${DevOpsAndTools}" title="${DevOpsAndTools}">
-                <p>${DevOpsAndTools}</p>
+                <p>${DevOpsAndTools}</p> <img>
               </li>`
             )
             .join("")}
