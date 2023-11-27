@@ -101,8 +101,46 @@
         "button": "View all"
       },
       "skills": {
-        "title": "Skills"
+        "title": "Skills",
+        "language": "Languages",
+        "languageList": {
+          "Java": "/images/icons/java.png",
+          "Python": "/images/icons/python.png",
+          "JavaScript": "/images/icons/js.png",
+          "C#": "/images/icons/c-.png"
+        },
+        "webTechnologiesAndFrameworks": "Web Technologies & Frameworks",
+        "webTechnologiesAndFrameworksList": {
+          "HTML": "/images/icons/html-5.png",
+          "CSS": "/images/icons/css-3.png",
+          "React": "/images/icons/React.png",
+          "Django": "/images/icons/Django.png",
+          "NodeJS": "/images/icons/NodeJS.png",
+          "jQuery": "/images/icons/jquery.png",
+          "ASP.NET": "/images/icons/NET.png",
+          "JavaFX": "/images/icons/JavaFX.png",
+          "Hibernate": "/images/icons/Hibernate.png"
+        },
+        "databaseCloud": "Databases & Cloud",
+        "databaseCloudList": {
+          "AWS": "/images/icons/AWS.png",
+          "MySQL": "/images/icons/mySQL.png",
+          "DyanmoDB": "/images/icons/DyanmoDB.png",
+          "PostgreSQL": "/images/icons/PostgreSQL.png"
+        },
+        "DevOpsAndTools": "DevOps & Tools",
+        "DevOpsAndToolsList": {
+          "Git": "/images/icons/git.png",
+          "Jira": "/images/icons/jira.png",
+          "Shell Scripting":"/images/icons/BASH.png",
+          "SharePoint": "/images/icons/SharePoint.png",
+          "Nintex": "/images/icons/nintex.png",
+          "Postman": "/images/icons/postman.svg",
+          "PowerBI": "/images/icons/PowerBI.png"
+        },
+        "other": "Other"
       },
+
       "about": {
         "title": "about",
         "description": [

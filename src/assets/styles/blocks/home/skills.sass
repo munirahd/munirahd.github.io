@@ -1,12 +1,47 @@
 .skills
-    width: 100%
+  display: flex
+  flex-direction: column
+  margin-bottom: 30px 
 
 
-.skills-container 
-    display: grid
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
-    gap: 20px
-    justify-content: center
+  &__header
+    display: flex
+    justify-content: space-between
     align-items: center
-    width: 100%
+    flex-wrap: wrap
+    margin-bottom: 24px
 
+  &__category
+    width: 100%
+    margin-bottom: 20px
+
+    h3
+      font-size: 22px
+      margin: 15px 0px 15px 0px
+      span
+        border-bottom: 1px solid var(--gray)
+
+    ul
+      list-style: none
+      padding: 0
+      display: flex
+      flex-wrap: wrap
+      gap: 10px
+      justify-content: flex-start
+      align-items: center
+
+      li
+        display: flex
+        align-items: center
+        margin: 10px
+        flex-direction: column
+         
+        p
+          margin-top: 5px
+          padding: 5px
+          font-size: 11px
+
+        img
+          width: 75px
+          height: 75px
+          object-fit: contain
