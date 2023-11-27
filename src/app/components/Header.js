@@ -1,8 +1,8 @@
 import routes from "@/consts/routes";
 import MediaIcon from "./MediaIcon";
-
-const paths = ["/", "/projects", "/about-me", "/contacts"];
-
+//
+//const paths = ["/", "/projects", "/about-me", "/contacts"];
+const paths = ["/", "/contacts"];
 
 export default (t) => {
   return /*html*/ `
@@ -12,7 +12,7 @@ export default (t) => {
             <div class="media-header">
                 <span class="media-header__line"></span>
                 <div class="media-header__links">
-                    ${["discord", "github", "email"]
+                    ${["github", "email"]
                       .map((name) => MediaIcon({ name }))
                       .join("")}
                 </div>

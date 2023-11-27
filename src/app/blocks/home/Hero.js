@@ -11,7 +11,7 @@ export default (t) => {
                         /*html*/ `<p class="hero__description">${text}</p>`
                 ).join("")}
                 </div>
-                <a class="button button__primary" href="#contacts">${t.button}</a>
+               <!-- <a class="button button__primary" href="#contacts">${t.button}</a> -->
             </div>
             <div class="hero__illustrations">
             <div class="hero__right">
@@ -22,7 +22,7 @@ export default (t) => {
                 Ada Lovelace the world's first computer programmer
                 </div>
                 </div>
-                <div class="hero__status">${t.status} <a href="https://elias-dev.ml">Portfolio</a></div>
+                <div class="hero__status">${t.status} <a href="">Portfolio</a></div>
                <!-- ${Dots({})} -->
             </div>
         </section>

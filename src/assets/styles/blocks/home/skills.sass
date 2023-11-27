@@ -1,8 +1,10 @@
 .skills
+  margin-top: 30px
   display: flex
-  flex-direction: column
-  margin-bottom: 30px 
-
+  justify-content: space-between
+  align-items: center
+  gap: 32px
+  flex-wrap: wrap
 
   &__header
     display: flex
@@ -10,6 +12,10 @@
     align-items: center
     flex-wrap: wrap
     margin-bottom: 24px
+
+    &__content
+      align-items: left
+      margin: 40px 0px 20px 0px
 
   &__category
     width: 100%
@@ -42,6 +48,28 @@
           font-size: 11px
 
         img
-          width: 75px
-          height: 75px
+          width: 80px
+          height: 80px
           object-fit: contain
+
+
+  // Media query for screen sizes smaller than 768px
+  @media (max-width: 768px)
+    // Add your responsive styles here. For example:
+    flex-direction: row
+    justify-content: space-around
+
+    &__header
+      flex-direction: column
+      align-items: flex-start
+
+    &__category
+      h3
+        font-size: 18px // smaller font size for smaller screens
+
+      ul
+
+        li
+          img
+            width: 40px // smaller images for smaller screens
+            height: 40px

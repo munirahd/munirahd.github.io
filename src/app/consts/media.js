@@ -9,15 +9,15 @@ const media = {
         id: "19758208",
         name: "elias",
     },
-    github: "EliasDevis",
-    figma: "elias_dev",
-    replit: "EliasDev",
-    codewars: "EliasDevis",
-    devTo: "eliasdevis",
-    cssBattle: "elias_dev",
-    codepen: "elias_dev",
-    dribble: "Elias_dev",
-    email: "elias@elias-dev.ml"
+    github: "MunirahD",
+    figma: "",
+    replit: "",
+    codewars: "",
+    devTo: "",
+    cssBattle: "",
+    codepen: "",
+    dribble: "",
+    email: "MunirahDu@gmail.com"
 }
 
 export default new Proxy(media, proxy);

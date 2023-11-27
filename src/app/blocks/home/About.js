@@ -10,9 +10,9 @@ export default (t) => {
                     ).join("")}
                 </div>
 
-                <a href="/about-me" class="button">${t.button} -></a>
+               <!-- <a href="/about-me" class="button">${t.button} →</a> --> 
             </div>
-            <img src="/images/about-me.png" alt="" class="about__image">
+           <!-- <img src="/images/about-me.png" alt="" class="about__image"> -->
         </section>
     `;
 };
