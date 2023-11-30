@@ -81,12 +81,7 @@ const projects = [
         isSmall: true,
     },
     {
-        id: "madhost",
-        techs: ["pug", "less", "gulp", "node"],
-        links: {
-            live: "madhost.pw",
-        },
-        hasImage: true,
+      
     },
 ];
 

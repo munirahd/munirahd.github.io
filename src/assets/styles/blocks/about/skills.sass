@@ -1,7 +1,79 @@
-.skills 
+.skills
+  width: 100%
+  margin-top: 30px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  gap: 32px
+  flex-wrap: wrap
+
+
+
+  &__header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    margin-bottom: 24px
+    width: 100%
+
     &__content
-        margin-top: 48px
+      align-items: left
+      margin: 40px 0px 20px 0px
+
+  &__category
+    width: 100%
+    margin-bottom: 20px
+
+    h3
+      font-size: 22px
+      margin: 15px 0px 15px 0px
+      span
+        border-bottom: 1px solid var(--gray)
+
+    ul
+      list-style: none
+      padding: 0
+      display: flex
+      flex-wrap: wrap
+      gap: 10px
+      justify-content: flex-start
+      align-items: center
+
+      li
         display: flex
-        gap: 16px
-        flex-wrap: wrap
-        align-items: start
+        align-items: center
+        margin: 10px
+        flex-direction: column
+         
+        p
+          margin-top: 5px
+          padding: 5px
+          font-size: 11px
+
+        img
+          width: 80px
+          height: 80px
+          object-fit: contain
+
+
+  // Media query for screen sizes smaller than 768px
+  @media (max-width: 768px)
+    // Add your responsive styles here. For example:
+    flex-direction: row
+    justify-content: space-around
+
+    &__header
+      flex-direction: column
+      align-items: flex-start
+
+    &__category
+      h3
+        font-size: 18px // smaller font size for smaller screens
+
+      ul
+
+        li
+          img
+            width: 40px // smaller images for smaller screens
+            height: 40px

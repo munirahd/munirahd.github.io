@@ -9,5 +9,7 @@ export default {
     cssBattle: "cssbattle.dev/player/",
     codepen: "codepen.io/",
     dribble: "dribbble.com/",
-    email: "mailto:"
+    email: "mailto:",
+    linkedin: "linkedin.com/in/",
+    phone: "tel:",
 }

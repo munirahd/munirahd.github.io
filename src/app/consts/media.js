@@ -10,6 +10,7 @@ const media = {
         name: "elias",
     },
     github: "MunirahD",
+    linkedin: "MunirahD",
     figma: "",
     replit: "",
     codewars: "",
@@ -17,7 +18,8 @@ const media = {
     cssBattle: "",
     codepen: "",
     dribble: "",
-    email: "MunirahDu@gmail.com"
+    email: "MunirahDu@gmail.com",
+    phone: "+966545023287",
 }
 
 export default new Proxy(media, proxy);

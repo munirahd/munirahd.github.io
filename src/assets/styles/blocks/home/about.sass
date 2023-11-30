@@ -1,13 +1,22 @@
 .about
     display: flex
-    gap: 32px
+    gap: 16px
     flex-wrap: wrap
     justify-content: space-between
     align-items: center
 
+    &__des
+        color: var(--gray)
+        text-align: center
+        font-size: 12px
+        padding: 10px
+        font-style: italic
+        border-bottom: 1px solid var(--primary)
+
     &__content
         flex: 1 1 0
         min-width: 300px
+        
 
     &__text
         margin-bottom: 32px
@@ -24,8 +33,11 @@
 
     &__image
         flex: 1 1 0
-        max-width: 340px
-        border-bottom: 1px solid var(--primary)
+        width:350px
+        height:350px
+    
+ 
+        
 
     
     
