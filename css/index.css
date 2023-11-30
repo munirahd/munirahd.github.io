@@ -116,7 +116,7 @@ body, html {
   color: var(--gray);
   font-family: "IBM Plex Mono", monospace;
   display: flex;
-  gap: 112px;
+  gap: 68px;
   flex-direction: column;
 }
 
@@ -395,10 +395,12 @@ body, html {
 .media {
   width: 32px;
   aspect-ratio: 1;
+  margin: 5px;
 }
 .media__icon {
   width: 100%;
   aspect-ratio: 1;
+  color: var(--gray);
 }
 .media__icon:hover {
   filter: brightness(0) invert(1);
@@ -414,7 +416,7 @@ body, html {
   font-weight: 600;
 }
 .path__name::before {
-  content: "/";
+  content: "";
   color: var(--primary);
 }
 .path__description {
@@ -462,7 +464,7 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 112px;
+  gap: 68px;
 }
 
 .logo {

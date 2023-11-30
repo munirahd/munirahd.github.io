@@ -3,10 +3,18 @@
   \****************************************************************************************************************************/
 .about {
   display: flex;
-  gap: 32px;
+  gap: 16px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+.about__des {
+  color: var(--gray);
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  font-style: italic;
+  border-bottom: 1px solid var(--primary);
 }
 .about__content {
   flex: 1 1 0;
@@ -27,8 +35,8 @@
 }
 .about__image {
   flex: 1 1 0;
-  max-width: 340px;
-  border-bottom: 1px solid var(--primary);
+  width: 350px;
+  height: 350px;
 }
 
 .contacts {
@@ -47,6 +55,9 @@
 }
 .contacts__list {
   margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .contacts__media {
   border: 1px solid var(--gray);
@@ -56,16 +67,22 @@
   color: var(--gray);
   max-width: 600px;
 }
+.contacts__description span {
+  color: var(--primary);
+}
 
-.contact {
+.contact-item {
   display: flex;
   gap: 8px;
-  color: var(--gray);
   align-items: center;
   margin-top: 8px;
 }
-.contact:hover {
+.contact-item:hover {
   filter: brightness(0) invert(1);
+}
+
+.contact-text {
+  color: var(--gray);
 }
 
 .hero {
@@ -127,6 +144,7 @@
   font-weight: 600;
 }
 .hero__title span {
+  font-weight: bold;
   color: var(--primary);
 }
 .hero__description {
@@ -136,6 +154,7 @@
   font-size: 15px;
 }
 .hero__description span {
+  font-weight: bold;
   color: var(--primary);
 }
 .hero__status {
@@ -223,6 +242,7 @@
 }
 
 .skills {
+  width: 100%;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -236,6 +256,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 24px;
+  width: 100%;
 }
 .skills__header__content {
   align-items: left;
