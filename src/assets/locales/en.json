@@ -62,9 +62,9 @@
       "name": "Feedrum",
       "description": "Ukrainian social network designed for programmers"
     },
-    "Hospital-Administration": {
-      "name": "Hospital Administration",
-      "description": "A basic java system for hospital admins to mange employees, patients, and services"
+    "deplos": {
+      "name": "Deplos",
+      "description": "Game servers hosting"
     }
   },
   "pages": {
@@ -160,9 +160,10 @@
       }
     },
     "projects": {
+      "title": "Projects",
       "description": "All of my projects",
-      "decent": "decent",
-      "small": "small",
+      "decent": "Decent",
+      "small": "Small",
       "inProgress": "unfinished"
     },
     "about": {

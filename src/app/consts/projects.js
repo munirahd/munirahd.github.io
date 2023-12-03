@@ -80,9 +80,6 @@ const projects = [
         },
         isSmall: true,
     },
-    {
-      
-    },
 ];
 
 export default projects;
