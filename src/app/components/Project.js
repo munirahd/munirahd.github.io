@@ -15,7 +15,7 @@ function mapLinks(links) {
         const className = link === "cached" ? "button__secondary" : "";
         const name = `${link[0].toUpperCase()}${link.slice(1)}`;
 
-        return /*html*/ `<a href="${href}" class="button ${className}">${name} =></a>`;
+        return /*html*/ `<a href="${href}" class="button ${className}">${name} →</a>`;
     }
 
     return Object.keys(links).map(map).join("");

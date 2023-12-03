@@ -31,4 +31,7 @@ export default {
     gulp: "Gulp",
     next: "Next",
     deno: "Deno",
+    java:"Java",
+    sql:"SQL",
+    mysql:"MySQL"
 }

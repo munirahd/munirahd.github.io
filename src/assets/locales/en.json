@@ -42,13 +42,21 @@
       "name": "My blog",
       "description": "Front-end of my future blog website"
     },
-    "discordbot": {
-      "name": "Discord Bot Boilerplate",
-      "description": "Start creating scalable discord.js bot with typescript in seconds"
+    "Hospital-Administration": {
+      "name": "Hospital Administration",
+      "description": "This project entails the development of a basic Java application for hospital administration. It's designed to manage various aspects such as employee records, patient details, and hospital services."
     },
-    "chesspro": {
-      "name": "Chess PRO",
-      "description": "Landing page about service for viewing chess tournaments"
+    "The-Data-Sorter": {
+      "name": "The Data Sorter",
+      "description": "\"The Data Sorter\" is a Python-based application developed as a project for an algorithms class. designed to sort large datasets using various algorithms. It provides a performance analysis by measuring the runtime of each sorting method."
+    },
+    "Data-Structure-Project": {
+      "name": "Data Structure Project",
+      "description": "A simple application that offers basic functionalities in cryptography, duplicate word detection in sentences, and word reversal in sentences employing both recursion and linked lists."
+    },
+    "DB-Coffee-Store": {
+      "name": "Database Design for a Coffee Store",
+      "description": "A simple application that offers basic functionalities in cryptography, duplicate word detection in sentences, and word reversal in sentences employing both recursion and linked lists."
     },
     "ooku": {
       "name": "Ooku",
@@ -162,8 +170,8 @@
     "projects": {
       "title": "Projects",
       "description": "All of my projects",
-      "decent": "Decent",
-      "small": "Small",
+      "decent": "End to End",
+      "small": "With no interfaces",
       "inProgress": "unfinished"
     },
     "about": {
