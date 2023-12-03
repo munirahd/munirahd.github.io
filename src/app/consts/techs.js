@@ -33,5 +33,8 @@ export default {
     deno: "Deno",
     java:"Java",
     sql:"SQL",
-    mysql:"MySQL"
+    mysql:"MySQL",
+    javafx:"JavaFX",
+    hibernate: "Hibernate ORM"
+
 }

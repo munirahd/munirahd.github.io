@@ -21,18 +21,20 @@ const projects = [
     hasImage: true,
   },
   {
-    id: "chertnodes",
+    id: "BabyPanda",
     links: {
-      figma: "1149829028455305659",
+      github: "/BabyPanda",
+      demo: "//drive.google.com/file/d/1wCVxoCIBMHFi08XTZ6GWeJWtAB9QCfxl/view?usp=sharing"
     },
-    techs: ["python", "flask", "scss"],
+    techs: ["java", "javafx", "hibernate", "mysql"],
     hasImage: true,
   },
   {
-    id: "protectx",
-    techs: ["react", "node", "discordJs"],
+    id: "AREEQ",
+    techs: ["figma"],
     links: {
-      figma: "1168662007492356291",
+      figma: "//www.figma.com/file/tReSwaRIz56MmFY1Y0ZoGo/UI-project-Areeq?type=design&node-id=0%3A1&mode=design&t=r1nsWIjwkTJieFq2-1",
+      report: "//drive.google.com/file/d/1M38yCw9ICBa61YSxA6zrwfdKByFmfXqV/view?usp=sharing"
     },
     hasImage: true,
   },

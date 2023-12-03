@@ -18,61 +18,74 @@
     "framework": "Frameworks"
   },
   "projects": {
-    "chertnodes": {
-      "name": "ChertNodes",
-      "description": "Minecraft servers hosting"
+    "BabyPanda": {
+      "name": "Baby Panda",
+      "description": "\"Baby Panda\" is an educational and entertaining software designed for children, focusing on developing cognitive skills through interactive learning of letters, numbers, and associated imagery",
+      "duration": "Sep 2022 - Nov 2022"
     },
-    "protectx": {
-      "name": "ProtectX web",
-      "description": "Discord anti-crash bot"
+    "AREEQ": {
+      "name": "AREEQ UI/UX Project",
+      "description": "",
+      "duration": ""
     },
     "khanswers": {
       "name": "Kahoot Answers",
-      "description": "Get answers from kahoot quiz"
+      "description": "Get answers from kahoot quiz",
+      "duration": ""
     },
     "kotikbot": {
       "name": "KotikBot",
-      "description": "Landing for multi-functional cute discord bot"
+      "description": "Landing for multi-functional cute discord bot",
+      "duration": ""
     },
     "portfolio": {
       "name": "This Portfolio",
-      "description": "My personal portfolio"
+      "description": "My personal portfolio",
+      "duration": ""
     },
     "blog": {
       "name": "My blog",
-      "description": "Front-end of my future blog website"
+      "description": "Front-end of my future blog website",
+      "duration": ""
     },
     "Hospital-Administration": {
       "name": "Hospital Administration",
-      "description": "This project entails the development of a basic Java application for hospital administration. It's designed to manage various aspects such as employee records, patient details, and hospital services."
+      "description": "This project entails the development of a basic Java application for hospital administration. It's designed to manage various aspects such as employee records, patient details, and hospital services.", "duration": "Mar 2021 - Apr 2021"
     },
     "The-Data-Sorter": {
       "name": "The Data Sorter",
-      "description": "\"The Data Sorter\" is a Python-based application developed as a project for an algorithms class. designed to sort large datasets using various algorithms. It provides a performance analysis by measuring the runtime of each sorting method."
+      "description": "\"The Data Sorter\" is a Python-based application developed as a project for an algorithms class. designed to sort large datasets using various algorithms. It provides a performance analysis by measuring the runtime of each sorting method.",
+      "duration": "May 2022"
     },
     "Data-Structure-Project": {
       "name": "Data Structure Project",
-      "description": "A simple application that offers basic functionalities in cryptography, duplicate word detection in sentences, and word reversal in sentences employing both recursion and linked lists."
+      "description": "A simple application that offers basic functionalities in cryptography, duplicate word detection in sentences, and word reversal in sentences employing both recursion and linked lists.",
+      "duration": ""
     },
     "DB-Coffee-Store": {
       "name": "Database Design for a Coffee Store",
-      "description": "A simple application that offers basic functionalities in cryptography, duplicate word detection in sentences, and word reversal in sentences employing both recursion and linked lists."
+      "description": "The design and implementation of a database for an coffee store specializing in coffee beans and equipment",
+      "duration": "Sep 2021 - Dec 2021"
     },
     "ooku": {
       "name": "Ooku",
-      "description": "Link shortener with discord auth"
+      "description": "Link shortener with discord auth",
+      "duration": ""
     },
     "madhost": {
       "name": "MadHost",
-      "description": "Minecraft and websites hosting with low prices"
+      "description": "Minecraft and websites hosting with low prices",
+      "duration": ""
     },
     "feedrum": {
       "name": "Feedrum",
-      "description": "Ukrainian social network designed for programmers"
+      "description": "Ukrainian social network designed for programmers",
+      "duration": ""
     },
     "deplos": {
       "name": "Deplos",
-      "description": "Game servers hosting"
+      "description": "Game servers hosting",
+      "duration": ""
     }
   },
   "pages": {
@@ -170,8 +183,8 @@
     "projects": {
       "title": "Projects",
       "description": "All of my projects",
-      "decent": "End to End",
-      "small": "With no interfaces",
+      "decent": "Big Enough",
+      "small": "No interfaces",
       "inProgress": "unfinished"
     },
     "about": {

@@ -1,7 +1,7 @@
 export default {
     discord: "discord.com/users/",
     github: "github.com/",
-    figma: "figma.com/@",
+    figma: "",
     replit: "replit.com/@",
     stackOverflow: "stackoverflow.com/users/",
     codewars: "codewars.com/users/",
@@ -12,4 +12,6 @@ export default {
     email: "mailto:",
     linkedin: "linkedin.com/in/",
     phone: "tel:",
+    demo: "",
+    report: "",
 }

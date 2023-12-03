@@ -8,7 +8,6 @@ function mapLinks(links) {
         let href =
         "https://" + (link === "live" ? "" : websites[link]) + links[link];
 
-        if (link === "figma") href = `https://figma.com/community/file/${links[link]}`
         if (link === "github" && links[link].startsWith("/")) href = media.github + links[link]
 
 
@@ -45,6 +44,7 @@ export default ({ id }, t) => {
 
             <div class="project__content">
                 <div class="project__name">${t[id].name}</div>
+                <div class="project__duration">${t[id].duration}</div>
                 <div class="project__description">${t[id].description}</div>
                 <div class="project__links">${mapLinks(links)}</div>
             </div>
