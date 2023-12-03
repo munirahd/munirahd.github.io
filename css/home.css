@@ -390,9 +390,14 @@
   font-size: 24px;
   font-weight: 500;
 }
+.project__duration {
+  font-size: 14px;
+  font-style: italic;
+}
 .project__description {
   color: var(--gray);
   margin: 16px 0;
+  font-size: 14px;
 }
 .project__techs {
   display: flex;

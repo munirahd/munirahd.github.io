@@ -82,7 +82,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n    discord: \"discord.com/users/\",\n    github: \"github.com/\",\n    figma: \"figma.com/@\",\n    replit: \"replit.com/@\",\n    stackOverflow: \"stackoverflow.com/users/\",\n    codewars: \"codewars.com/users/\",\n    devTo: \"dev.to/\",\n    cssBattle: \"cssbattle.dev/player/\",\n    codepen: \"codepen.io/\",\n    dribble: \"dribbble.com/\",\n    email: \"mailto:\",\n    linkedin: \"linkedin.com/in/\",\n    phone: \"tel:\",\n});\n\n//# sourceURL=webpack://portfolio/./src/app/consts/websites.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n    discord: \"discord.com/users/\",\n    github: \"github.com/\",\n    figma: \"\",\n    replit: \"replit.com/@\",\n    stackOverflow: \"stackoverflow.com/users/\",\n    codewars: \"codewars.com/users/\",\n    devTo: \"dev.to/\",\n    cssBattle: \"cssbattle.dev/player/\",\n    codepen: \"codepen.io/\",\n    dribble: \"dribbble.com/\",\n    email: \"mailto:\",\n    linkedin: \"linkedin.com/in/\",\n    phone: \"tel:\",\n    demo: \"\",\n    report: \"\",\n});\n\n//# sourceURL=webpack://portfolio/./src/app/consts/websites.js?");
 
 /***/ }),
 
@@ -233,7 +233,7 @@ eval("var map = {\n\t\"./About\": [\n\t\t\"./src/app/views/About.js\",\n\t\t\"sr
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + {"src_app_views_About_js":"6fce4b43ddff14d41a08","src_app_views_Contacts_js":"af97e7482b1454888950","src_app_views_Home_js":"d51fb3355ae971376123","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"f3ef51f4b6eb50752a62"}[chunkId] + ".js";
+/******/ 			return "js/" + {"src_app_views_About_js":"6fce4b43ddff14d41a08","src_app_views_Contacts_js":"af97e7482b1454888950","src_app_views_Home_js":"2407e8cb889050679a14","src_app_views_PageNotFound_js":"889f973003c86d2b46df","src_app_views_Projects_js":"9cf824dc29ed76574f20"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
