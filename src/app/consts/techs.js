@@ -35,6 +35,10 @@ export default {
     sql:"SQL",
     mysql:"MySQL",
     javafx:"JavaFX",
-    hibernate: "Hibernate ORM"
+    hibernate: "Hibernate ORM",
+    numpy: "NumPy",
+    pandas: "Pandas",
+    xlsxwriter: "XlsxWriter"
+
 
 }

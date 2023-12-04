@@ -24,42 +24,42 @@
       "duration": "Sep 2022 - Nov 2022"
     },
     "AREEQ": {
-      "name": "AREEQ UI/UX Project",
-      "description": "",
-      "duration": ""
+      "name": " <span>(UI/UX)</span> AREEQ Project",
+      "description": "Areeq offers an engaging platform to explore nearby archaeological wonders. Join a journey to an authorized site and uncover the mysteries of history.",
+      "duration": "2023 Jan - 2023 Feb"
     },
-    "khanswers": {
-      "name": "Kahoot Answers",
-      "description": "Get answers from kahoot quiz",
-      "duration": ""
+    "WebProjects": {
+      "name": "Collection of Web Projects",
+      "description": "This collection of projects, completed as part of the Responsive Web Design certification from freeCodeCamp",
+      "duration": "Jun 2022"
     },
-    "kotikbot": {
-      "name": "KotikBot",
-      "description": "Landing for multi-functional cute discord bot",
-      "duration": ""
+    "oldPortfolio": {
+      "name": "Old Portfolio",
+      "description": "This is my old, cute, and basic personal portfolio",
+      "duration": "Jun 2022"
     },
     "portfolio": {
       "name": "This Portfolio",
       "description": "My personal portfolio",
       "duration": ""
     },
-    "blog": {
-      "name": "My blog",
-      "description": "Front-end of my future blog website",
+    "SP500-Equal-Shares": {
+      "name": "SP500 Equal Shares",
+      "description": "This project creates an equal-weight version of the S&P 500 index fund for the user to invest in.",
       "duration": ""
     },
     "Hospital-Administration": {
       "name": "Hospital Administration",
-      "description": "This project entails the development of a basic Java application for hospital administration. It's designed to manage various aspects such as employee records, patient details, and hospital services.", "duration": "Mar 2021 - Apr 2021"
+      "description": "A Java application for hospital administration. It's designed to manage aspects such as employee records, patient details, and hospital services.", "duration": "Mar 2021 - Apr 2021"
     },
     "The-Data-Sorter": {
       "name": "The Data Sorter",
-      "description": "\"The Data Sorter\" is a Python-based application developed as a project for an algorithms class. designed to sort large datasets using various algorithms. It provides a performance analysis by measuring the runtime of each sorting method.",
+      "description": "\"The Data Sorter\" Developed for the algorithms class, designed to sort large datasets, to preform performance analysis by measuring the runtime of each sorting method.",
       "duration": "May 2022"
     },
     "Data-Structure-Project": {
       "name": "Data Structure Project",
-      "description": "A simple application that do a simple cryptography, detect duplicate word in sentences, and revers a word in sentences employing both recursion and linked lists.",
+      "description": "A simple application that do a simple cryptography, detect duplicate word in sentences, and revers a word in sentences.",
       "duration": ""
     },
     "DB-Coffee-Store": {

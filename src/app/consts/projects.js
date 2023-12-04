@@ -39,20 +39,19 @@ const projects = [
     hasImage: true,
   },
   {
-    id: "khanswers",
-    techs: ["express", "node", "ejs"],
+    id: "WebProjects",
+    techs: ["html", "css"],
     links: {
-      live: "khanswers.vercel.app",
-      github: "/kahoot-answers",
+      github: "/WebProjects",
     },
     hasImage: true,
   },
   {
-    id: "kotikbot",
-    techs: ["html", "css", "js"],
+    id: "oldPortfolio",
+    techs: ["html", "css"],
     links: {
-      live: "kotikbot.github.io",
-      github: "kotikbot/kotikbot.github.io",
+      github: "/oldPortfolio",
+      demo: "//drive.google.com/file/d/1-m30EUPwUg_rys1t5FaOMYdf78a7xN7z/view?usp=sharing",
     },
     hasImage: true,
   },
