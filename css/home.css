@@ -390,6 +390,9 @@
   font-size: 24px;
   font-weight: 500;
 }
+.project__name span {
+  color: var(--primary);
+}
 .project__duration {
   font-size: 14px;
   font-style: italic;
