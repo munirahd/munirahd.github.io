@@ -59,12 +59,12 @@
     },
     "Data-Structure-Project": {
       "name": "Data Structure Project",
-      "description": "A simple application that offers basic functionalities in cryptography, duplicate word detection in sentences, and word reversal in sentences employing both recursion and linked lists.",
+      "description": "A simple application that do a simple cryptography, detect duplicate word in sentences, and revers a word in sentences employing both recursion and linked lists.",
       "duration": ""
     },
     "DB-Coffee-Store": {
       "name": "Database Design for a Coffee Store",
-      "description": "The design and implementation of a database for an coffee store specializing in coffee beans and equipment",
+      "description": "The design and implementation of a database for an coffee beans store.",
       "duration": "Sep 2021 - Dec 2021"
     },
     "ooku": {
