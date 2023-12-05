@@ -59,7 +59,6 @@ const projects = [
     id: "portfolio",
     techs: ["js", "sass", "webpack"],
     links: {
-      figma: "1164933568884615740",
       github: "/portfolio",
     },
     hasImage: true,
@@ -69,6 +68,14 @@ const projects = [
     techs: ["java"],
     links: {
       github: "/Hospital-Administration",
+    },
+    isSmall: true,
+  },
+  {
+    id: "SP500-Equal-Shares",
+    techs: ["python", "pandas", "numpy", "xlsxwriter"],
+    links: {
+      github: "/SP500-Equal-Shares",
     },
     isSmall: true,
   },
