@@ -1,4 +1,5 @@
 .experience 
+    width: 100%
     &__header
         display: flex
         justify-content: space-between
@@ -25,25 +26,17 @@
     &__item
         position: relative
         margin-bottom: 30px
-        &:before
-            content: ''
-            position: absolute
-            left: -7px
-            top: 0
-            height: 15px
-            width: 15px
-            border-radius: 50%
-            background: var(--gray)
-            border: 3px solid var(--gray)
 
     &__content
         padding: 10px 20px
         background: var(--background)
         bor
         border-radius: 4px
-
-        h3
-            margin: 0
+        
+        p
+            display: flex
+            justify-content: space-between /* Aligns items on the main axis */
+            align-items: center /* Aligns items on the cross axis */
 
         ul
             padding-left: 20px
@@ -54,3 +47,6 @@
     &__date
         color: var(--gray)
         font-style: italic
+        margin-top: 10px
+        margin-bottom: 20px
+        

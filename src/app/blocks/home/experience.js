@@ -8,8 +8,8 @@ export default (t, t2) => {
                 <div class="timeline__item">
                     <div class="timeline__content">
                     <h2 class="timeline__company">${t.company_name}</h2>
-                        <h3>${t.experience_title}</h3>
-                        <span class="timeline__date">${t.experience_date}</span>
+                        <p>${t.experience_title}   <span class="timeline__date">${t.experience_date}</span></p>
+                      
                         <ul>
                         ${t.description
                           .map(

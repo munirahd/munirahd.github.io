@@ -3,7 +3,7 @@ import MediaIcon from "./MediaIcon";
 //
 //const paths = ["/", "/projects", "/about-me", "/contacts"];
 const paths = ["/", "/projects", "/about-me"];
-const resumeUrl = "https://drive.google.com/file/d/1DzsnmXTA64h9npyPUiTvwB619JeiK5Tp/view?usp=sharing";
+const resumeUrl = "https://drive.google.com/file/d/1Za3rgPVkF_rX2khSLc3PzHrWZrqvyAOy/view?usp=sharing";
 
 export default (t) => {
   return /*html*/ `
@@ -36,7 +36,7 @@ export default (t) => {
                             `
                           )
                           .join("")}
-                        <a href="${resumeUrl}" class="header__link" target="_blank">Resume✨</a> <!-- Resume Button -->
+                        <a href="${resumeUrl}" class="header__link" target="_blank">Resume 🪄</a> <!-- Resume Button -->
                     </div>
                 </div>
             </div>

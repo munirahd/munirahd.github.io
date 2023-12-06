@@ -121,17 +121,20 @@
       },
       "eduction": {
         "title": "Eduction",
-        "experience_title": "Software Engineer Intern – Digital Channels Team",
-        "experience_date": "July 2023 - Sep 2023",
-        "company_name": "Alinma Bank",
-        "description": [
-          "→ Developed the new Human Capital internal Portal using SharePoint & Frontend tools/frameworks.",
-          "→ Tested a major financial analysis system in the bank's new mobile app, identifying microservice-related issues, documenting bugs in Jira, and cross-referencing with the related team.",
-          "→ Developed a dynamic Power BI dashboard for the Human Capital department.",
-          "→ Developed a candidate management system for the Digital Channels team using Nintex workflows.",
-          "→ Assisted with internal support, making modifications for departmental internal portals."
+        "eduction_list": [
+          "• B.Sc. in Computer Science (1st Honors), Umm Al Qura University, GPA 3.86/4. <span class=\"eduction__date\">Sep 2019 - Dec 2023</span>",
+          "• AI Product Manager BSF, Udacity.  <span class=\"eduction__date\">May 2023 - Aug 2023</span>",
+          "• AWS Certified Cloud Practitioner,AWS.  <span class=\"eduction__date\">Mar 2023</span>",
+          "• AWS Cloud Quest: Cloud Practitioner, AWS.  <span class=\"eduction__date\">Mar 2023</span>"
         ],
-        "button": "View all"
+        "eduction_list_courses": [
+          "• Amazon DynamoDB Deep Dive, A Cloud Guru. <span class=\"eduction__date\">May 2023</span>",
+          "• Natural Language Processing (NLP) in Python, DataCamp <span class=\"eduction__date\">Apr 2023</span>",
+          "• Understanding Machine Learning, DataCamp <span class=\"eduction__date\">Mar 2023</span>",
+          "• JavaScript Algorithms and Data Structures, freeCodeCamp. <span class=\"eduction__date\">Dec 2022</span>",
+          "• Responsive Web Design, freeCodeCamp. <span class=\"eduction__date\">July 2022</span>",
+          "• Data Structures and Algorithms: Deep Dive Using Java, Udemy. <span class=\"eduction__date\">Aug 2021</span>"
+        ]
       },
       "projects": {
         "title": "Projects",
