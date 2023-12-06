@@ -3,39 +3,30 @@
  */
 const projects = [
   {
-    id: "deplos",
+    id: "muhtm",
     links: {
-      figma: "1198393124994627983",
-      live: "deplos.com",
+      demo: "//drive.google.com/file/d/1khTnF-KrUbufQLmddxHBo-fuH1LD5-hC/view?usp=sharing",
+      figma: "//www.figma.com/file/yzmSNWt119Psnfm144O1R5/Muhtm?type=design&node-id=0%3A1&mode=design&t=S64qnTMcXjXsobxH-1",
     },
-    techs: ["pug", "stylus", "node"],
-    hasImage: true,
-  },
-  {
-    id: "feedrum",
-    links: {
-      github: "Feedrum-Project/feedrum-next",
-      live: "feedrum.com",
-    },
-    techs: ["node", "next", "react", "zod"],
+    techs: ["react", "figma", "python", "django", "ml", "postgreSql"],
     hasImage: true,
   },
   {
     id: "BabyPanda",
     links: {
       github: "/BabyPanda",
-      demo: "//drive.google.com/file/d/1wCVxoCIBMHFi08XTZ6GWeJWtAB9QCfxl/view?usp=sharing"
+      demo: "//drive.google.com/file/d/1wCVxoCIBMHFi08XTZ6GWeJWtAB9QCfxl/view?usp=sharing",
     },
     techs: ["java", "javafx", "hibernate", "mysql"],
     hasImage: true,
   },
   {
-    id: "AREEQ",
-    techs: ["figma"],
+    id: "DevBuddy",
     links: {
-      figma: "//www.figma.com/file/tReSwaRIz56MmFY1Y0ZoGo/UI-project-Areeq?type=design&node-id=0%3A1&mode=design&t=r1nsWIjwkTJieFq2-1",
-      report: "//drive.google.com/file/d/1M38yCw9ICBa61YSxA6zrwfdKByFmfXqV/view?usp=sharing"
+      github: "/DevBuddy",
+      demo: "//drive.google.com/file/d/1NxauMRM1PINQeWwsZ73CmezD4O1Dfstw/view?usp=sharing.com",
     },
+    techs: ["js","html", "css"],
     hasImage: true,
   },
   {
@@ -43,6 +34,14 @@ const projects = [
     techs: ["html", "css"],
     links: {
       github: "/WebProjects",
+    },
+    hasImage: true,
+  },
+  {
+    id: "portfolio",
+    techs: ["js", "sass", "webpack"],
+    links: {
+      github: "/portfolio",
     },
     hasImage: true,
   },
@@ -56,18 +55,37 @@ const projects = [
     hasImage: true,
   },
   {
-    id: "portfolio",
-    techs: ["js", "sass", "webpack"],
+    id: "AREEQ",
+    techs: ["figma"],
     links: {
-      github: "/portfolio",
+      figma:
+        "//www.figma.com/file/tReSwaRIz56MmFY1Y0ZoGo/UI-project-Areeq?type=design&node-id=0%3A1&mode=design&t=r1nsWIjwkTJieFq2-1",
+      report:
+        "//drive.google.com/file/d/1M38yCw9ICBa61YSxA6zrwfdKByFmfXqV/view?usp=sharing",
     },
     hasImage: true,
+  },
+  {
+    id: "Hate-Speech-Detector",
+    techs: ["python","ml"],
+    links: {
+      github: "/Hate-Speech-Detector",
+    },
+    isSmall: true,
   },
   {
     id: "Hospital-Administration",
     techs: ["java"],
     links: {
       github: "/Hospital-Administration",
+    },
+    isSmall: true,
+  },
+  {
+    id: "Useful-Bash-Scripts",
+    techs: ["shell"],
+    links: {
+      github: "/Useful-Bash-Scripts",
     },
     isSmall: true,
   },
@@ -97,7 +115,7 @@ const projects = [
   },
   {
     id: "DB-Coffee-Store",
-    techs: ["sql","mysql"],
+    techs: ["sql", "mysql"],
     links: {
       github: "/DB-Coffee-Store",
     },

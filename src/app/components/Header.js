@@ -3,6 +3,7 @@ import MediaIcon from "./MediaIcon";
 //
 //const paths = ["/", "/projects", "/about-me", "/contacts"];
 const paths = ["/", "/projects", "/about-me"];
+const resumeUrl = "https://drive.google.com/file/d/1DzsnmXTA64h9npyPUiTvwB619JeiK5Tp/view?usp=sharing";
 
 export default (t) => {
   return /*html*/ `
@@ -21,7 +22,6 @@ export default (t) => {
             <div class="container">
                 <div class="header__inner">
                     <a class="logo" href="/">
-                    <!-- <img class="logo__img" src="/images/logo.png" alt="Munirah logo"> -->
                         <span class="logo__name">Munirah Alduraibi</span>
                     </a>
                     <div class="header__links">
@@ -36,16 +36,8 @@ export default (t) => {
                             `
                           )
                           .join("")}
+                        <a href="${resumeUrl}" class="header__link" target="_blank">Resume✨</a> <!-- Resume Button -->
                     </div>
-                    <!--
-                    <div class="dropdown">
-                        <span class="dropdown__label">en</span>
-                        <div class="dropdown__list">
-                            <div class="dropdown__option">ru</div>
-                            <div class="dropdown__option">ua</div>
-                        </div>
-                    </div>
-                    -->
                 </div>
             </div>
         </header>

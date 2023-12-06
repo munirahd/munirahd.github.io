@@ -5,6 +5,7 @@ import Skills from "@/blocks/home/Skills.js";
 import About from "@/blocks/home/About.js";
 import Contacts from "@/blocks/home/Contacts.js";
 import Experience from "@/blocks/home/experience.js";
+import Eduction from "@/blocks/home/eduction.js";
 import "styles/pages/home.sass"
     //
 
@@ -14,6 +15,7 @@ export default (t, locale) => {
         ${Quote(t.quote)}
         ${Experience(t.experience)}
         ${Projects(t.projects, locale.projects)}
+        ${Eduction(t.eduction)}
         ${Skills(t.skills, locale.skills)}
         ${About(t.about)}
         ${Contacts(t.contacts)}

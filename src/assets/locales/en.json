@@ -41,16 +41,27 @@
     "portfolio": {
       "name": "This Portfolio",
       "description": "My personal portfolio",
-      "duration": ""
+      "duration": "2023 Nov"
     },
     "SP500-Equal-Shares": {
       "name": "SP500 Equal Shares",
       "description": "This project creates an equal-weight version of the S&P 500 index fund for the user to invest in.",
-      "duration": ""
+      "duration": "2023 Apr"
+    },
+    "Hate-Speech-Detector": {
+      "name": "<span>(AI)</span> Hate Speech Detector",
+      "description": "An AI tool to detect abusive and hateful language in Arabic tweets.",
+      "duration": "Mar 2023 - May 2023"
     },
     "Hospital-Administration": {
       "name": "Hospital Administration",
-      "description": "A Java application for hospital administration. It's designed to manage aspects such as employee records, patient details, and hospital services.", "duration": "Mar 2021 - Apr 2021"
+      "description": "A Java application for hospital administration. It's designed to manage aspects such as employee records, patient details, and hospital services.",
+      "duration": "Mar 2021 - Apr 2021"
+    },
+    "Useful-Bash-Scripts": {
+      "name": "Useful Bash Scripts",
+      "description": "This repository is a collection of bash/zsh scripts designed to automate various personal workload tasks.to  address common needs such as setting up Python environments and managing version control workflows.",
+      "duration": "Apr 2023 - Now"
     },
     "The-Data-Sorter": {
       "name": "The Data Sorter",
@@ -60,32 +71,22 @@
     "Data-Structure-Project": {
       "name": "Data Structure Project",
       "description": "A simple application that do a simple cryptography, detect duplicate word in sentences, and revers a word in sentences.",
-      "duration": ""
+      "duration": "Nov 2021 - Dec 2021"
     },
     "DB-Coffee-Store": {
       "name": "Database Design for a Coffee Store",
       "description": "The design and implementation of a database for an coffee beans store.",
       "duration": "Sep 2021 - Dec 2021"
     },
-    "ooku": {
-      "name": "Ooku",
-      "description": "Link shortener with discord auth",
-      "duration": ""
+    "DevBuddy": {
+      "name": "DevBuddy",
+      "description": "DevBuddy is a website designed as a learning platform for aspiring web developers. It offers tutorials and exercises in key web programming languages.",
+      "duration": "Nov 2021 - Dec 2021"
     },
-    "madhost": {
-      "name": "MadHost",
-      "description": "Minecraft and websites hosting with low prices",
-      "duration": ""
-    },
-    "feedrum": {
-      "name": "Feedrum",
-      "description": "Ukrainian social network designed for programmers",
-      "duration": ""
-    },
-    "deplos": {
-      "name": "Deplos",
-      "description": "Game servers hosting",
-      "duration": ""
+    "muhtm": {
+      "name": "<span>(AI)</span> Muhtm My Graduation Project",
+      "description": "Muhtm is an AI-driven website tool specialized in aspect-based sentiment analysis. It's tailored to aid business owners in gaining profound insights from customer reviews by focusing on specific aspects of products or services.",
+      "duration": "Mar 2023 - Oct 2023"
     }
   },
   "pages": {
@@ -108,6 +109,21 @@
         "title": "Experience",
         "experience_title": "Software Engineer Intern – Digital Channels Team",
         "experience_date": "July 2023 - Sep 2023",
+        "company_name": "Alinma Bank",
+        "description": [
+          "→ Developed the new Human Capital internal Portal using SharePoint & Frontend tools/frameworks.",
+          "→ Tested a major financial analysis system in the bank's new mobile app, identifying microservice-related issues, documenting bugs in Jira, and cross-referencing with the related team.",
+          "→ Developed a dynamic Power BI dashboard for the Human Capital department.",
+          "→ Developed a candidate management system for the Digital Channels team using Nintex workflows.",
+          "→ Assisted with internal support, making modifications for departmental internal portals."
+        ],
+        "button": "View all"
+      },
+      "eduction": {
+        "title": "Eduction",
+        "experience_title": "Software Engineer Intern – Digital Channels Team",
+        "experience_date": "July 2023 - Sep 2023",
+        "company_name": "Alinma Bank",
         "description": [
           "→ Developed the new Human Capital internal Portal using SharePoint & Frontend tools/frameworks.",
           "→ Tested a major financial analysis system in the bank's new mobile app, identifying microservice-related issues, documenting bugs in Jira, and cross-referencing with the related team.",
