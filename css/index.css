@@ -120,14 +120,6 @@ body, html {
   flex-direction: column;
 }
 
-.dots {
-  width: 10vmin;
-  height: auto;
-}
-.dots circle {
-  fill: var(--gray);
-}
-
 .media-header {
   position: fixed;
   display: flex;
