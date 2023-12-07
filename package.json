@@ -4,7 +4,7 @@
   "main": "src/app/index.js",
   "author": {
     "name": "munirah",
-    "url": "https://munirah.github.io/portfolio"
+    "url": "https://munirah.github.io"
   },
   "license": "MIT",
   "devDependencies": {
@@ -23,6 +23,9 @@
   },
   "scripts": {
     "build": "webpack",
-    "serve": "webpack serve"
+    "serve": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }
+
