@@ -32,7 +32,7 @@ export default (t) => {
                               window.location.pathname === path
                                 ? "header__link_active"
                                 : ""
-                            }">${t[routes[path].name]}</a>
+                            }">${t[routes[path].name]} hey</a>
                             `
                           )
                           .join("")}
