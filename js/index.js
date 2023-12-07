@@ -93,7 +93,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((pathName) => {\n    const link = document.createElement(\"link\")\n    link.href = `/portfolio/css/${pathName}.css`;\n    link.rel = \"stylesheet\"\n    \n    document.head.appendChild(link)\n});\n\n//# sourceURL=webpack://portfolio/./src/app/helpers/loadCssFile.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((pathName) => {\n    const link = document.createElement(\"link\")\n    link.href = `/css/${pathName}.css`;\n    link.rel = \"stylesheet\"\n    \n    document.head.appendChild(link)\n});\n\n//# sourceURL=webpack://portfolio/./src/app/helpers/loadCssFile.js?");
 
 /***/ }),
 
