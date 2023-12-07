@@ -1,4 +1,5 @@
 {
+  "homepage":"https://munirahd.github.io/portfolio/",
   "name": "portfolio",
   "version": "1.2.0",
   "main": "src/app/index.js",
@@ -10,19 +11,23 @@
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.2",
+    "gh-pages": "^6.1.0",
     "html-webpack-plugin": "^5.5.0",
     "json-minimizer-webpack-plugin": "^4.0.0",
     "mini-css-extract-plugin": "^2.7.2",
+    "node-sass": "^8.0.0",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0",
-    "webpack-dev-server": "^4.11.1",
-    "node-sass": "^8.0.0"
+    "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
     "build": "webpack",
-    "serve": "webpack serve"
+    "serve": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
+  
 }
