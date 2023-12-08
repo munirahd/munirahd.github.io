@@ -6,8 +6,8 @@ const media = {
         tag: "!Elias#3519",
     },
     stackOverflow: {
-        id: "19758208",
-        name: "elias",
+        id: "",
+        name: "",
     },
     github: "MunirahD",
     linkedin: "MunirahD",

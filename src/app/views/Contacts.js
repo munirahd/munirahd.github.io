@@ -7,6 +7,6 @@ import "styles/pages/about.sass"
 
 export default (t, locale) => {
     return /*html*/ `
-        <h1> hey</h1> 
+        <h1> </h1> 
     `;
 };

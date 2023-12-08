@@ -6,7 +6,7 @@
     "contacts": "Let's talk"
   },
   "footer": {
-    "description": "Software engineer, Building AI-centric solutions",
+    "description": "Software engineer, Building AI-centric solutions.",
     "copyright": "Copyright 2023. Made by Munirah",
     "media": "Media"
   },
@@ -92,7 +92,7 @@
   "pages": {
     "home": {
       "hero": {
-        "title": "Software Engineer, Building AI-centric solutions.",
+        "title": "Software Engineer, AI, Making the world better, one software at a time.",
         "description": [
           "As a software engineer, my capabilities were showcased during my internship, where I significantly contributed to <span>redeveloping</span> an internal portal for a department. Additionally, I played a key role in <span>testing</span>  a new feature within an app built on a major financial system, during which I identified <span>3 bugs</span>.",
           " Independently, I also <span>developed a Power BI dashboard</span> to enhance the visualization of internal data. For My graduation project, \"Muhtm,\" it is an <span>AI-based tool</span> for in-depth sentiment analysis of customer reviews, aiding business owners in product evaluation.",
@@ -128,7 +128,7 @@
           "• AWS Cloud Quest: Cloud Practitioner, AWS.  <span class=\"eduction__date\">Mar 2023</span>"
         ],
         "eduction_list_courses": [
-          "•hhh Amazon DynamoDB Deep Dive, A Cloud Guru. <span class=\"eduction__date\">May 2023</span>",
+          "• Amazon DynamoDB Deep Dive, A Cloud Guru. <span class=\"eduction__date\">May 2023</span>",
           "• Natural Language Processing (NLP) in Python, DataCamp <span class=\"eduction__date\">Apr 2023</span>",
           "• Understanding Machine Learning, DataCamp <span class=\"eduction__date\">Mar 2023</span>",
           "• JavaScript Algorithms and Data Structures, freeCodeCamp. <span class=\"eduction__date\">Dec 2022</span>",
