@@ -94,8 +94,8 @@
       "hero": {
         "title": "Software Engineer, AI, Making the world better, one software at a time.",
         "description": [
-          "As a software engineer, my capabilities were showcased during my internship, where I significantly contributed to <span>redeveloping</span> an internal portal for a department. Additionally, I played a key role in <span>testing</span>  a new feature within an app built on a major financial system, during which I identified <span>3 bugs</span>.",
-          " Independently, I also <span>developed a Power BI dashboard</span> to enhance the visualization of internal data. For My graduation project, \"Muhtm,\" it is an <span>AI-based tool</span> for in-depth sentiment analysis of customer reviews, aiding business owners in product evaluation.",
+          "As a software engineer, my capabilities were showcased during my internship, where I contributed to <span>redeveloping</span> an internal portal for a department. Additionally, I played a role in <span>testing</span>  a new feature within an app built on a financial system.",
+          "I also <span>developed a Power BI dashboard</span> to enhance the visualization of internal data. For My graduation project, \"Muhtm,\" it is an <span>AI-based tool</span> for in-depth sentiment analysis of customer reviews, aiding business owners in product evaluation.",
           "To explore more about my projects and professional journey, feel free to contact me or visit my LinkedIn profile."
         ],
         "button": "Let's talk →",
@@ -111,10 +111,10 @@
         "experience_date": "Summer 2023",
         "company_name": "",
         "description": [
-          "→ Developed the new Human Capital internal Portal using SharePoint & Frontend tools/frameworks.",
-          "→ Tested a major financial analysis system in the bank's new mobile app, identifying microservice-related issues, documenting bugs in Jira, and cross-referencing with the related team.",
-          "→ Developed a dynamic Power BI dashboard for the Human Capital department.",
-          "→ Developed a candidate management system for the Digital Channels team using Nintex workflows.",
+          "→ Developed the a new internal Portal using SharePoint & Frontend tools/frameworks.",
+          "→ Tested a  financial analysis system in the new mobile app, identifying microservice-related issues, documenting bugs in Jira, and cross-referencing with the related team.",
+          "→ Developed a dynamic Power BI dashboard for an internal department.",
+          "→ Developed a candidate management system for the team using Nintex workflows.",
           "→ Assisted with internal support, making modifications for departmental internal portals."
         ],
         "button": "View all"
