@@ -1,5 +1,5 @@
 ## Project Description
-The portfolio, crafted using vanilla JavaScript, SASS, and Webpack, is a professional showcase deployed on GitHub Pages. It's a testament to web development skills, featuring a range of projects and accomplishments.
+The portfolio, developed using vanilla JavaScript, SASS, and Webpack, is a personal project showcasing professional and creative work. It's deployed on GitHub Pages, offering a platform to dump all my work on.
 
 ### Live Site
 Accessible here: https://munirahd.github.io/
