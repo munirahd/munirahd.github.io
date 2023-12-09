@@ -26,7 +26,7 @@
     "AREEQ": {
       "name": " <span>(UI/UX)</span> AREEQ Project",
       "description": "Areeq offers an engaging platform to explore nearby archaeological wonders. Join a journey to an authorized site and uncover the mysteries of history.",
-      "duration": "2023 Jan - 2023 Feb"
+      "duration": "2023 Jan - Feb 2023"
     },
     "WebProjects": {
       "name": "Collection of Web Projects",
@@ -41,12 +41,12 @@
     "portfolio": {
       "name": "This Portfolio",
       "description": "My personal portfolio",
-      "duration": "2023 Nov"
+      "duration": "Nov 2023"
     },
     "SP500-Equal-Shares": {
       "name": "SP500 Equal Shares",
       "description": "This project creates an equal-weight version of the S&P 500 index fund for the user to invest in.",
-      "duration": "2023 Apr"
+      "duration": "Apr 2023"
     },
     "Hate-Speech-Detector": {
       "name": "<span>(AI)</span> Hate Speech Detector",

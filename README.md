@@ -1,15 +1,18 @@
-# My Portfolio #
-Written in vanilla js.
+## Project Description
+The portfolio, crafted using vanilla JavaScript, SASS, and Webpack, is a professional showcase deployed on GitHub Pages. It's a testament to web development skills, featuring a range of projects and accomplishments.
 
-If you have any questions you can message me on discord: **elias.dev.**  
-*PS. I'm sure there are a lot of typos and bugs, so pull requests and forks are welcome*  
+### Live Site
+Accessible here: [Portfolio](https://munirahd.github.io/)
 
-**FIGMA**: https://www.figma.com/community/file/1164933568884615740  
-**LIVE**: https://elias-dev.ml
+## Enhancement To-Do List
+- [ ] Contact page.
+- [ ] Add a section for opensource.
+- [ ] Add a linktree page.
+- [ ] Add a section for my Articles.
+- [ ] Add a section for services.
+- [ ] Delete unused code.
 
-## TODO ##
-- [ ] Page contacts
-- [ ] Blog maybe
-- [ ] Animation
-- [ ] Improve images
-- [ ] Delete unused code
+**Duration:** Nov 2023
+
+## Acknowledgment 
+- **Origin:** The portfolio is based on a template originally developed by [Elias](https://github.com/EliasDevis), which has been significantly modified and built upon.
